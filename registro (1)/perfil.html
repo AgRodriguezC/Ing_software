@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPerfil.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <div class="container emp-profile">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="img/businessMan.png"/>
+                        <div class="file btn btn-lg btn-primary">
+                            Change Photo
+                            <input type="file" name="file"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-head">
+                                <h5>
+                                    Cristopher Vallejos
+                                </h5>
+                                <h6>
+                                    SALDO: 3.450
+                                </h6>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Perfil</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Direcciones y Pago</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-work">
+                        <p>Informacion de Trabajo</p>
+                        <a href="https://www.codelco.com/">Codelco</a><br/>
+                        <a href="https://goo.gl/maps/R1SnMqqarTLbjctZ7">Huerfanos 1270, Santiago, Región Metropolitana</a><br/>
+                        <p>Configuracion Web</p>
+                        <a href="">Temas</a><br/>
+                        <a href="">Tamaño de letra</a><br/>
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Rut</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>19.929.666-6</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Nombre</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Cristopher</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Correo Electrónico</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>cristopher@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Celular</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>+56 9 18877987</p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Casa</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Cam. La Fuente 1301</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Trabajo</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Av. Condell 40, Providencia</p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Tarjeta Credito</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>5597-1581-6429-4070 <br>
+                                                08/2024<br>
+                                                401
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Tarjeta Trabajo</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>5429-4983-7327-4271<br>
+                                                05/2026<br>
+                                                318
+                                            </p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>           
+    </div>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/Alimentos santiago.png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <h5>Correo Electrónico:</h5>
+                <p><a style="color: white;" href="mailto:contacto@alsantiago.cl">contacto@alsantiago.cl</a></p>
+                <h5>Telefono de contacto:</h5>
+                <p>+56247812980</p>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>Santiago Alimentos</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
